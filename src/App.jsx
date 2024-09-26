@@ -9,8 +9,9 @@ function App() {
   return (
     <>
       {/* Banner Part */}
+
           {/* navber */}
-          <nav className='flex gap-60 justify-between'>
+          <nav className='flex  container mx-auto gap-60 justify-between'>
             <div>
               <img className='h-6' src="../public/furni_shop-high-resolution-logo-black-transparent.png" alt="" />
             </div>
@@ -39,6 +40,32 @@ function App() {
             </div>
           </nav>
           {/* navber */}
+
+         {/* <div className='w-full flex bg-red-400 h-full container mt-6'>
+                      <div className='basis-/5'>
+                         <img src="../public/DOTS.png" alt="" />
+                         <img className='absolute z-10 ' src="../public/Content.png" alt="" />
+                      </div>
+
+                      <div className='relative left-60 basis-4/5  w-[1700px]'>
+                        <img className='' src="../public/banner_image.png" alt="" />
+                       </div>
+         </div> */}
+
+<div className='container  flex mt-5 w-full h-full'>
+
+ <div className='bg-red-600 mt-10  basis-2/6 h-full w-full'>
+            {/* two images */}
+            <img className='absolute top-28 left-96 ml-24' src="../public/DOTS.png" alt="" />
+            <img className='absolute mt-32 h-[400px] z-10' src="../public/Content.png" alt="" />
+ </div>
+ <div className='bg-yellow-400 relative   basis-5/6 h-full w-full'>
+     {/* banner image */}
+ <img src="../public/banner_image.png" alt="" />
+ </div>
+</div>
+
+
       {/* Banner Part */}
     </>
   )
